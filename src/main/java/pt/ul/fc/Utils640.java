@@ -7,7 +7,7 @@ public class Utils640 {
      * Returns the area of a rectangle with the given width and height.
      */
     public static int areaOf(int width, int height) {
-        return 2 * (width + height);
+        return (width * height);
     }
 
     /**
@@ -35,7 +35,7 @@ public class Utils640 {
      * Returns the absolute value of number.
      */
     public static int abs(int number) {
-        return -Math.abs(number);
+        return Math.abs(number);
     }
 
     /**
