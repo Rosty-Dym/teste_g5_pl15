@@ -12,6 +12,19 @@ class Utils640Test {
     }
 
     @Test
+    void areaOfWorks() {
+        assertEquals(20, Utils640.areaOf(5,4));
+        assertEquals(2, Utils640.areaOf(1,2));
+    }
+
+    @Test
+    void absWorks() {
+        assertEquals(4, Utils640.abs(4));
+        assertEquals(3, Utils640.abs(3));
+    }
+
+
+    @Test
     void greaterThanZeroWorks() {
         assertTrue(Utils640.greaterThanZero(3));
         assertFalse(Utils640.greaterThanZero(-3));
